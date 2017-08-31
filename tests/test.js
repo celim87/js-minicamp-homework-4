@@ -23,7 +23,7 @@ describe('invokeCallback(cb)', function() {
   });
 });
 
-describe('sumArray(cb)', function() {
+describe('sumArray(numbers, cb)', function() {
 	it('should pass the sum of all array numbers to cb', function(done) {
 		exercises.sumArray([1, 2, 3, 4, 5], function(sum) {
 			expect(sum).toBe(15);
